@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+/* Configuracão geral do corpo da página */
+
+body{
+	margin: 0 auto;
+	font-family: "Century Gothic", sans-serif;
+}
+/* *************************************** 
+			Configurações gerais
+**************************************** */
+/* cabeçalho */
+header{
+	margin-top: -40px;
+	height: 90px;
+	background-color: #ebd327;
+}
+header h1{
+	font-family: fantasy;
+	text-align: center;
+	font-size: 60px;
+	color:	#13560b;
+}
+/* Menu */
+nav{
+	margin:8px;
+	clear:both;
+	width: 99%;
+	
+	height: 55px;
+}
+nav a{
+	color: #13560b;
+	text-decoration: none;
+	text-align: center;
+}
+nav .opcao{
+	border-radius: 8px;
+	float: left;
+	width: 23%;
+	background-color: #96da99;
+	padding:10px 0;
+	margin: 0 1%;
+	font-size: 22px;
+}
+nav .opcao:hover{
+	background-color: #21842d;
+}
+
+/* Area geral para conteudos especificos de cada pagina*/
+section{
+	clear: both;
+	min-height: 471px;
+	width: 100%;
+	margin-top: 0px;
+}
+/* Rodape */ 
+
+footer{
+	background-color: #ebd327;
+	color: #000;
+	text-align: center;
+	padding: 10px;
+}
+/*****************************************
+	Configuração da página inicial
+*****************************************/
+section #fotos{
+	margin-top: -4px;
+	text-align: center;
+
+}
+.foto{
+	height: 210px;
+	width: 550px;
+}
+.direita{
+	float: none;
+}
+
+section #textos{
+	float: both;
+	height: 90px;
+	width: 450px;
+	margin: 15px auto;
+}
+h2{
+	text-align: center;
+	font-size: 25px; 
+	margin-top:0px;
+	margin-bottom:5px;
+	font-family:serif
+}
+h4{
+	text-align: center;
+	font-size: 15px; 
+	margin-top:-5px;
+	margin-bottom: 0px;
+}
+section p{
+	clear: both;
+	text-align: center;
+	margin: 10px 80px;
+}
+/*****************************************
+	Configuração da página de Produtos
+*****************************************/
+.tabelaMandatos{
+	margin: 10px auto;
+	text-align: center;
+		width: 550px;
+}
+.tituloTabela{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #000000;
+	padding: 5px;
+	border:  #ffffff;
+}
+tr,td,th{
+	border: 1px groove #0008ff;
+	padding: 10px;
+}
+tr,td{
+	font-size: 20px;
+}
+tr:nth-child(even){
+	background-color: #e5f844;
+}
+tr:nth-child(odd){
+	background-color: #7dff5c;
+}
+
+/*****************************************
+	Configuração da página de Inscricao 
+*****************************************/
+.inscricao{
+	width: 400px;
+	margin: 0px auto;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.inscricao input, .inscricao textarea, .inscricao select{
+	margin: 5px;
+	
+	padding: 5px 0;
+	
+}
+.inscricao button{
+	width: 30%;
+	margin:0 10%;
+	background-color: #4caf50ad;
+	font-weight: bold;
+	font-size: 16px;
+}
+section .arruma{
+  position: relative;
+  top: -3px;
+  border-radius: 8px;
+	;
+}
+.a{
+	width:82%;
+	border-radius: 4px;
+}
+
+/*****************************************
+	Configuração da página de Fotos 
+*****************************************/
+section #imgs1{
+	width: 1100px;
+	margin: 0px auto;
+	height: 300px;
+	
+}
+.imgs{
+	height: 290px;
+	width: 340px;
+}
+.esq{
+	float: left;
+}
+.dir{
+	float: right;
+}
+section #text{
+	float: left;
+	height: 270px;
+	width: 300px;
+	margin: 0px auto;
+	margin-left: 60px;
+}
+h3{
+	text-align: center;
+	margin-top:110px;
+	font-size:35px;
+} 
